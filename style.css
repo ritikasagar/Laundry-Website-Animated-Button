@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+nav{
+    /* border: 2px solid blue; */
+    width: 100vw;
+    height: 10vh;
+    position: sticky;
+}
+
+ul li{
+    display: inline;
+}
+ul li a {
+    display: inline;
+    text-decoration: none;
+}
+
+li {
+    position: relative;
+    left: 35vw;
+    top: 4vh;
+    padding: 3vw 2vh;
+}
+
+li a{
+    font-size: 1.5vw;
+    color: rgb(130, 129, 129);
+}
+
+li a:hover{
+    color: rgb(54, 198, 255);
+}
+
+.logo{
+    position: absolute;
+    margin: 1vw 4vh;
+    font-size: 60vw 60vh;
+}
+.logo h1{
+    color: grey;
+
+}
+
+.user{
+    position: absolute;
+    top: 1vh;
+    left: 90vw;
+}
+
+.user button{
+    padding: 1vw 1vh;
+    width: 9vw;
+    border-radius: 10px;
+    border-color: skyblue;
+    background-color: rgb(226, 247, 251);
+    color: rgb(116, 215, 254);
+    font-size: 1.3vw;
+
+}
+
+.user button:hover{
+    background-color: rgb(7, 136, 186);
+
+}
+
+.hero{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 88vh;
+    padding: 2vw 2vh;
+}
+
+.left{
+    /* border: 2px solid purple; */
+    float: left;
+    width: 40vw;
+    height: 65vh;
+}
+
+.photo img{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 10vh;
+    float: right; 
+    clear: both;
+    width: 47vw;
+    /* border-radius: 30px; */
+    /* width: 50vw; */
+    /* height: 90vh; */
+}
+
+img{
+    padding: 10vw 10vh;
+    width: 50vw;
+    /* border-radius: 30px; */
+}
+.left{
+    margin: 3vw 3vh;
+}
+.left h1{
+    color: rgb(105, 105, 105);
+    /* font-size: 4vw 4vh; */
+    /* padding: 5vw 5vh; */
+    font-size: 3vw ;
+}
+
+.left h1 span{
+    color: rgb(53, 196, 252);
+}
+
+.left h3{
+    color: grey;
+    font-weight: 600;
+    padding-top: 3vh;
+}
+
+.right button{
+    margin-top: 5vh;
+    /* margin-left: 5vw; */
+    width: 19vw;
+    padding: 2vw 2vh;
+    border-color: skyblue;
+    background-color: rgb(55, 215, 247);
+    color: white;
+    border-radius: 30px;
+    font-size: 1.5vw;
+    animation: 0.8s ease;
+}
+
+.right button:hover{
+    background-color: rgb(7, 136, 186);
+    transform: rotate(-10deg);
+    padding: 3vw 3vh;
+    font-size: 2vw;
+    width: 22vw;
+}
